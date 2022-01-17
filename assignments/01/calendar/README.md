@@ -1,0 +1,7 @@
+# 12-1: Develop the Change Calculator
+In this exercise, you’ll create an application that displays the minimum number of quarters, dimes, nickels, and pennies that make up the number of cents specified by the user.
+## Instructions
+1. In the JavaScript file, note the jQuery ready() event method, and the start of an event handler for the click event of the Calculate button. Also note that the ready event handler sets the focus on the cents text box.
+2. In the event handler for the Calculate button, get the value entered by the user and make sure it’s an integer that’s between 0 and 99. If it isn’t, display an alert dialog box a validation message.
+3. If the number entered by the user is valid, write code to calculate the number of coins needed for the cents entered by the user. Start with the quarters and work your way down to the pennies. Use the Math.floor() method to round your results to the next lower integer whenever needed. And use the number of cents remaining from the last calculation as the starting point for the next calculation.
+4. Display the number for each coin in the corresponding text box. Be sure to display whole numbers. Finally, set the focus on the cents text box for the next calculation.
