@@ -31,7 +31,7 @@ const isDate = text => {
                 if(day > 31) {return false;}
         }
     }
-	return true; 
+    return true; 
 };
 
 $(document).ready( () => {
