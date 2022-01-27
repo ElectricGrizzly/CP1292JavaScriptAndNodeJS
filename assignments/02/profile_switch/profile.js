@@ -14,9 +14,8 @@ const isDate = text => {
 	const index2 = text.indexOf( "/", index1 + 1 );
 	const month = parseInt( text.substring( 0, index1 ) );
 	const day = parseInt( text.substring( index1 + 1, index2 ) );
-    // year is used for the unasked for leap year check (for fun)
-    const year = parseInt( text.substring( index2 + 1, text.length ) );
-    console.log(year);
+	// year is used for the unasked for leap year check (for fun)
+	const year = parseInt( text.substring( index2 + 1, text.length ) );
 	
 	if( month < 1 || month > 12 ) { return false; }
 	else {
